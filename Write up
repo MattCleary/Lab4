@@ -1,0 +1,6 @@
+An admin Logs In using their admin specific email address, e.g. example@admin.com
+The AdminController checks if the credentials are valid for an admin log in.
+AuthAdmin class calls User.getUserById(id) method, and passes is thE
+users email address. If the id matches the email, the user is successfully
+logged into the site. THe admin can now update a product via the addProductSubmit()
+and addProductForm() methods.
